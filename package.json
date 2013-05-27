@@ -1,0 +1,23 @@
+{
+  "name": "d16acdn",
+  "version": "0.0.1",
+  "description": "CDN for Exspresso",
+  "keywords": ["Exspresso"],
+  "author": "bruce davidson <darkoverlordofdata@gmail.com>",
+  "contributors": [
+    {
+      "name": "bruce davidson",
+      "email": "darkoverlordofdata@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "foreman start web"
+  },
+  "dependencies": {
+    "versions": "~0.1.11",
+    "coffee-script": "~1.6.2"
+  },
+  "repository": "git://github.com/darkoverlordofdata/d16acdn",
+  "main": "index",
+  "license": "MIT"
+}

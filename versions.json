@@ -1,0 +1,11 @@
+{
+  "auth": "d16a",
+  "blacklisted extensions": [".foo", ".conf"],
+  "cors": "*",
+  "directory": "./public",
+  "expire internal cache": "1 hour",
+  "max age": "30 days",
+  "origin servers": [],
+  "port": 8080,
+  "plugins": [{ "name": "logger", "config": "short" }, "logger"]
+}
