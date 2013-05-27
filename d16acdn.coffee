@@ -2,7 +2,7 @@
 
 versions = require('versions')
 
-port =  process.env.port ? 3000
+port =  process.env.PORT ? 3000
 
 
 versions.listen port, (err) =>
