@@ -4,6 +4,10 @@
 
 Used by [Exspresso] (https://github.com/darkoverlordofdata/exspresso)
 
+Components served here:
+
+  * //d16acdn.herokuapp.com/ckeditor/ckeditor.js
+
 ## License
 
 (The MIT License)

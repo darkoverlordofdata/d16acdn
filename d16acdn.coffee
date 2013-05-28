@@ -2,11 +2,13 @@
 
 versions = require('versions')
 
-port =  process.env.PORT ? 3000
+port =  process.env.PORT ? 8086
 
+versions.set 'log level', 'debug'
 
-versions.listen port, (err) =>
-  if (err)
-    console.log '[versions] Failed to start Versions'
+versions.listen port, (err) ->
+
+  if err
+    @logger.error '[versions] Failed to start Versions'
   else
-    console.log '[versions] Started versions/'+ versions.version+ ' on port '+port
+    @logger.log '[versions] Started Versions/'+ versions.version+ ' on port '+port
