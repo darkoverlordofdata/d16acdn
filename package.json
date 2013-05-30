@@ -11,7 +11,7 @@
     }
   ],
   "scripts": {
-    "start": "foreman start web"
+    "start": "node d16acdn.js"
   },
   "dependencies": {
     "versions": "~0.1.11",
