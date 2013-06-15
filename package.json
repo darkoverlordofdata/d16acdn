@@ -2,7 +2,9 @@
   "name": "d16acdn",
   "version": "0.0.1",
   "description": "CDN for Exspresso",
-  "keywords": ["Exspresso"],
+  "keywords": [
+    "Exspresso"
+  ],
   "author": "bruce davidson <darkoverlordofdata@gmail.com>",
   "contributors": [
     {
@@ -15,7 +17,7 @@
   },
   "dependencies": {
     "versions": "~0.1.11",
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.6.3"
   },
   "repository": "git://github.com/darkoverlordofdata/d16acdn",
   "main": "index",
