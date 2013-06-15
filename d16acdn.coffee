@@ -7,7 +7,12 @@ port =  process.env.PORT ? 53610
 
 versions.set 'log level', 'debug'
 versions.set 'directory', './public'
-versions.set 'plugins', [{ name: 'directory', config: './public' }, 'directory']
+versions.set 'plugins', [
+  { name: 'directory',  config: './public' }
+  { name: 'favicon',    config: './public/favicon.png' }
+  'directory'
+  'favicon'
+]
 
 versions.listen port, (err) ->
 
