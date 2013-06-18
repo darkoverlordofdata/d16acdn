@@ -4,7 +4,7 @@
 versions = require('versions')
 
 port =  process.env.PORT ? 53610
-
+versions.set 'auth', process.env.CDNKEY || 'd16a'
 versions.set 'log level', 'debug'
 versions.set 'directory', './public'
 versions.set 'plugins', [
