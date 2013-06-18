@@ -14,10 +14,19 @@ versions.set 'plugins', [
   'favicon'
 ]
 versions.set 'origin servers', [
-  {url: 'd16a.aws.af.cm', name: 'd16a'}
-  {url: 'exspresso.aws.af.cm', name: 'exspresso'}
+  {url: 'd16a.aws.af.cm', id: 'd16a'}
+  {url: 'exspresso.aws.af.cm', id: 'exspresso'}
 ]
+###
+versions.set 'sync', true
 
+redis = process.env.VCAP_SERVICES['redis-2.2']
+
+versions.set 'redis',
+  host: redis.credentials.host
+  port: redis.credentials.port
+  auth: redis.credentials.password
+###
 versions.listen port, (err) ->
 
   if err
@@ -26,6 +35,3 @@ versions.listen port, (err) ->
     @logger.log '[versions] Started Versions/'+ versions.version+ ' on port '+port
 
 
-#
-# TODO: use connect directory middleware to sever directory listing
-#
