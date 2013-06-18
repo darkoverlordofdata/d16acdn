@@ -14,8 +14,8 @@ versions.set 'plugins', [
   'favicon'
 ]
 versions.set 'origin servers', [
-  {url: 'd16a.aws.af.cm', id: 'd16a'}
-  {url: 'exspresso.aws.af.cm', id: 'exspresso'}
+  {url: 'http://d16a.aws.af.cm', id: 'd16a'}
+  {url: 'http://exspresso.aws.af.cm', id: 'exspresso'}
 ]
 ###
 versions.set 'sync', true
