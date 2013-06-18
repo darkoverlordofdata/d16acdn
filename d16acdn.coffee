@@ -13,6 +13,10 @@ versions.set 'plugins', [
   'directory'
   'favicon'
 ]
+versions.set 'origin servers', [
+  {url: 'd16a.aws.af.cm', name: 'd16a'}
+  {url: 'exspresso.aws.af.cm', name: 'exspresso'}
+]
 
 versions.listen port, (err) ->
 
