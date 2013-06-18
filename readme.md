@@ -4,25 +4,6 @@
 
 Used by [Exspresso] (https://github.com/darkoverlordofdata/exspresso)
 
-Components served here:
-
-  * [Exspresso CSS] (//d16acdn.herokuapp.com/css/exspresso.min.css)
-    * bootstrap 2.1.1
-    * jquery-ui 1.8.24
-    * exspresso site style
-
-
-  * [CKEditor] (//d16acdn.herokuapp.com/ckeditor/ckeditor.js)
-    * ckeditor 4.1.1 full/custom
-    * lang en
-    * plugin divarea
-
-  * [Katra Dependancies] (//d16acdn.herokuapp.com/js/katra-deps.min.js)
-    * json2.js
-    * underscore.js
-    * backbone.js
-    * jquery-console.js
-    * coffee-script.js
 
 ## License
 
