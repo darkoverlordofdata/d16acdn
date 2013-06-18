@@ -48,7 +48,7 @@ versions.set 'origin servers', [
 #
 versions.set 'sync', true
 
-redis = process.env.VCAP_SERVICES['redis-2.2']
+redis = JSON.parse(process.env.VCAP_SERVICES)['redis-2.2'][0]
 
 versions.set 'redis',
   host: redis.credentials.host
@@ -59,7 +59,8 @@ versions.set 'redis',
 #
 # Start the server
 #
-versions.listen process.env.PORT ? 53610, (err) ->
+port = process.env.PORT ? 53610
+versions.listen port, (err) ->
 
   if err
     @logger.error '[versions] Failed to start Versions'
