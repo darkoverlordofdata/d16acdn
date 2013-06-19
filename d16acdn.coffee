@@ -40,12 +40,13 @@ versions.set 'plugins', [
 #
 versions.set 'origin servers', [
   {url: 'http://d16a.aws.af.cm', id: 'd16a'}
-  {url: 'http://exspresso.aws.af.cm', id: 'exspresso'}
+#  {url: 'http://exspresso.aws.af.cm', id: 'exspresso'}
 ]
 
 #
 # Sync:
 #
+###
 versions.set 'sync', true
 
 redis = JSON.parse(process.env.VCAP_SERVICES)['redis-2.2'][0]
@@ -54,6 +55,7 @@ versions.set 'redis',
   host: redis.credentials.host
   port: redis.credentials.port
   auth: redis.credentials.password
+###
 
 
 #
