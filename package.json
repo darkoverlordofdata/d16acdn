@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "CDN for Exspresso",
   "keywords": [
-    "Exspresso"
+    "cdn", "versions", "coffee-script"
   ],
   "author": "bruce davidson <darkoverlordofdata@gmail.com>",
   "contributors": [
@@ -13,15 +13,14 @@
     }
   ],
   "scripts": {
-    "start": "node d16acdn.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "versions": "~0.1.11",
     "coffee-script": "~1.6.3",
-    "redis": "~0.8.3",
     "connect-url-rewrite": "~0.1.0"
   },
   "repository": "git://github.com/darkoverlordofdata/d16acdn",
-  "main": "index",
+  "main": "index.js",
   "license": "MIT"
 }

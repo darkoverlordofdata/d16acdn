@@ -4,6 +4,8 @@
 
 Used by [Exspresso] (https://github.com/darkoverlordofdata/exspresso)
 
+Features a directory view front end.
+
 
 ## License
 
