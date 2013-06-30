@@ -30,12 +30,12 @@ versions.set 'directory', './public'
 #
 
 versions.set 'plugins', [
+  { name: 'connect-url-rewrite', config: ["^/$ /index.html"]}
   { name: 'directory',  config: './public' }
   { name: 'favicon',    config: './public/favicon.png' }
-  { name: 'connect-url-rewrite', config: ["^/$", "/index.html"]}
+  'connect-url-rewrite'
   'directory'
   'favicon'
-  'connect-url-rewrite'
 ]
 
 #

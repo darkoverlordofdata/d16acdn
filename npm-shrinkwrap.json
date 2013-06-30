@@ -140,7 +140,7 @@
     },
     "connect-url-rewrite": {
       "version": "0.1.0",
-      "from": "connect-url-rewrite@"
+      "from": "connect-url-rewrite@~0.1.0"
     }
   }
 }
