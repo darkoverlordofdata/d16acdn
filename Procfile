@@ -1,1 +1,1 @@
-web: node d16acdn.js
+web: node index.js
