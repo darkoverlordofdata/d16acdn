@@ -137,6 +137,10 @@
     "redis": {
       "version": "0.8.3",
       "from": "redis@"
+    },
+    "connect-url-rewrite": {
+      "version": "0.1.0",
+      "from": "connect-url-rewrite@"
     }
   }
 }

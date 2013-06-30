@@ -28,11 +28,14 @@ versions.set 'directory', './public'
 #
 # Plugins:
 #
+
 versions.set 'plugins', [
   { name: 'directory',  config: './public' }
   { name: 'favicon',    config: './public/favicon.png' }
+  { name: 'connect-url-rewrite', config: ["^/$", "/index.html"]}
   'directory'
   'favicon'
+  'connect-url-rewrite'
 ]
 
 #
