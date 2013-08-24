@@ -16,7 +16,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "versions": "~0.1.11",
+    "versions": "git://github.com/darkoverlordofdata/versions.git",
     "coffee-script": "~1.6.3",
     "connect-url-rewrite": "~0.1.0"
   },

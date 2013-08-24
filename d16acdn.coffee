@@ -42,7 +42,7 @@ versions.set 'plugins', [
 # Origin servers:
 #
 versions.set 'origin servers', [
-  {url: 'http://d16a.aws.af.cm', id: 'd16a'}
+  {url: 'http://blog.darkoverlordofdata.com', id: 'd16a'}
 ]
 
 
