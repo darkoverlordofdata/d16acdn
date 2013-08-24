@@ -49,8 +49,10 @@ versions.set 'origin servers', [
 #
 # Start the server
 #
-port = process.env.PORT ? 53610
-versions.listen port, (err) ->
+port = process.env.PORT || process.env.OPENSHIFT_INTERNAL_PORT || process.env.OPENSHIFT_NODEJS_PORT || 0xd16a
+ip = process.env.OPENSHIFT_INTERNAL_IP || process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+
+versions.listen port, ip, (err) ->
 
   if err
     @logger.error '[versions] Failed to start Versions'
