@@ -6,8 +6,11 @@ Using [Versions] (https://github.com/3rd-Eden/versions)
 
 Features a directory view front end.
 
-Used by [Exspresso] (https://github.com/darkoverlordofdata/exspresso)
+Dark Overlord of Data assets used by [Exspresso] (https://github.com/darkoverlordofdata/exspresso)
 
+To install on OpenShift:
+
+rhc create-app test "http://cartreflect-claytondev.rhcloud.com/reflect?github=wshearn/openshift-origin-cartridge-nodejs" --from-code=http://github.com//darkoverlordofdata/d16acdn
 
 ## License
 
