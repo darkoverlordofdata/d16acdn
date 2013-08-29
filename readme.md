@@ -1,4 +1,4 @@
-# [d16acdn v0.0.1] (https://github.com/darkoverlordofdata/d16acdn)
+# [d16acdn v0.0.2] (https://github.com/darkoverlordofdata/d16acdn)
 
 ## Dark Overlord of Data CDN
 
